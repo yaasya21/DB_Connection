@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<jsp:useBean id="students" scope="session" type="java.util.List"/>
+<jsp:useBean id="students" scope="request" type="java.util.List"/>
 <%@page isELIgnored="false"%>
 <!DOCTYPE html>
 <html>
@@ -31,14 +31,14 @@
             padding: 10px;
         }
         body {
-            background-image: url('https://www.5.ua/media/pictures/original/249998.jpg?t=1654168386');
+            background-image: url('https://molbert.com.ua/show_img.php?fon=img/bg/90054.jpg&img=img/gallery/big/picture_adm_17475_29.jpg&width=105&height=140&left=397.5&top=110');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
         }
     </style>
 </head>
-<h1>Servlet</h1>
+<h1>DB-CONNECTION</h1>
 <form method="post" action="students">
     <table>
         <tbody>
